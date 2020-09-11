@@ -1,0 +1,32 @@
+.title{
+	color:#5BC3D5 !important;
+}
+
+.technology_card{
+	transition: all 0.3s ease-in-out;
+}
+
+.technology_card:hover{
+	border: 1px solid #5BC3D5;
+	cursor: pointer;
+	box-shadow: 0px -3px 8px -3px rgba(0, 0, 0, 0.1) !important;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+.post-item{
+    transition: all 0.3s ease-in-out;
+    padding:1em;
+}
+
+.post-item:hover{
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    border-radius: 10px;
+}
+
+.post-item a:hover{
+    text-decoration: none;
+}
